@@ -47,26 +47,68 @@ function wpm_custom_post_type() {
     
     add_action( 'init', 'wpm_custom_post_type', 12);
     
+  
+function taxonomy_promotion() {
+ 
+    $labels = array(
+      'name' => _x( 'Promotions', 'taxonomy general name' ),
+      'singular_name' => _x( 'Promotion', 'taxonomy singular name' ),
+      'search_items' =>  __( 'Recherche de la promotion' ),
+      'all_items' => __( 'Toutes les promotions' ),
+      'parent_item' => __( 'parent Promotion ' ),
+      'parent_item_colon' => __( 'parent Promotion: ' ),
+      'edit_item' => __( 'Modifier une promotion' ), 
+      'update_item' => __( 'Mettre à jour une promotion' ),
+      'add_new_item' => __( 'Ajouter une nouvelle promotion' ),
+      'new_item_name' => __( 'Nouvelle promotion' ),
+      'menu_name' => __( 'Promotion' ),
+    );    
+
+    register_taxonomy('promotion',array('apprenant'), array(
+      'hierarchical' => true,
+      'labels' => $labels,
+      'show_ui' => true,
+      'show_in_rest' => true,
+      'show_admin_column' => true,
+      'query_var' => true,
+      'rewrite' => array( 'slug' => 'promotion' ),
+    ));
+   
+  }
+  
+  add_action( 'init', taxonomy_promotion', 0 );
+  
+  
+   function taxonomy_Competences() {
+   
+      $labels = array(
+        'name' => _x( 'Compétences', 'taxonomy general name' ),
+        'singular_name' => _x( 'Compétence', 'taxonomy singular name' ),
+        'search_items' =>  __( 'Recherche de la Compétence' ),
+        'all_items' => __( 'Toutes les Compétences' ),
+        'parent_item' => __( 'Parent Compétence ' ),
+        'parent_item_colon' => __( 'Parent Compétence: ' ),
+        'edit_item' => __( 'Modifier une compétence' ), 
+        'update_item' => __( 'Mettre à jour une compétence' ),
+        'add_new_item' => __( 'Ajouter une nouvelle compétence' ),
+        'new_item_name' => __( 'Nouvelle compétence' ),
+        'menu_name' => __( 'Compétence' ),
+      );    
+     
     
+      register_taxonomy('Competence',array('apprenant'), array(
+        'hierarchical' => true,
+        'labels' => $labels,
+        'show_ui' => true,
+        'show_in_rest' => true,
+        'show_admin_column' => true,
+        'query_var' => true,
+        'rewrite' => array( 'slug' => 'Competence' ),
+      ));
+     
+    }
+    
+    add_action( 'init', 'taxonomy_Competence', 0 );
+   
 
     
-function montheme_register_Promotion() {
-    register_taxonomy('Promotion', 'Apprenant', [
-        'labels' => [
-            'name' => 'Promotion',
-            'singular_name'     => 'Promotion',
-            'plural_name'       => 'Promotion',
-            'search_items'      => 'Rechercher des Promotion',
-            'all_items'         => 'Tous les Promotion',
-            'edit_item'         => 'Editer le Promotion',
-            'update_item'       => 'Mettre à jour le Promotion',
-            'add_new_item'      => 'Ajouter un nouveau Promotion',
-            'new_item_name'     => 'Ajouter un nouveau Promotion',
-            'menu_name'         => 'Promotion',
-        ],
-        'show_in_rest' => true,
-        'hierarchical' => false,
-        'show_admin_column' => true,
-    ]);
-}
-add_action('init', 'montheme_register_Promotion');
