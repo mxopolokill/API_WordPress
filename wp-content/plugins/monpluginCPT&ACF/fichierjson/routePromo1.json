@@ -1,0 +1,82 @@
+[
+    {
+        "id": 10,
+        "count": 11,
+        "description": "",
+        "link": "http://localhost/wordpress/Competence/back-end/",
+        "name": "Back End",
+        "slug": "back-end",
+        "taxonomy": "Competence",
+        "parent": 0,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/Competence/10"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/Competence"
+                }
+            ],
+            "about": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/taxonomies/Competence"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/apprenant?Competence=10"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 9,
+        "count": 12,
+        "description": "",
+        "link": "http://localhost/wordpress/Competence/front-end/",
+        "name": "Front End",
+        "slug": "front-end",
+        "taxonomy": "Competence",
+        "parent": 0,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/Competence/9"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/Competence"
+                }
+            ],
+            "about": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/taxonomies/Competence"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/apprenant?Competence=9"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    }
+]

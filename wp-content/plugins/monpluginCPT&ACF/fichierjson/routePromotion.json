@@ -1,0 +1,82 @@
+[
+    {
+        "id": 7,
+        "count": 12,
+        "description": "",
+        "link": "http://localhost/wordpress/promotion/p1-2021/",
+        "name": "P1: 2021",
+        "slug": "p1-2021",
+        "taxonomy": "promotion",
+        "parent": 0,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/promotion/7"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/promotion"
+                }
+            ],
+            "about": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/taxonomies/promotion"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/apprenant?promotion=7"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 8,
+        "count": 12,
+        "description": "",
+        "link": "http://localhost/wordpress/promotion/p2-2022/",
+        "name": "P2: 2022",
+        "slug": "p2-2022",
+        "taxonomy": "promotion",
+        "parent": 0,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/promotion/8"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/promotion"
+                }
+            ],
+            "about": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/taxonomies/promotion"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/apprenant?promotion=8"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    }
+]

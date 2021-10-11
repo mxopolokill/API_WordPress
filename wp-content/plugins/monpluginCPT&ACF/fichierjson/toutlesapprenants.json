@@ -1,0 +1,718 @@
+[
+    {
+        "id": 131,
+        "date": "2021-10-08T14:18:08",
+        "date_gmt": "2021-10-08T12:18:08",
+        "guid": {
+            "rendered": "http://localhost/wordpress/?post_type=apprenant&#038;p=131"
+        },
+        "modified": "2021-10-10T21:11:03",
+        "modified_gmt": "2021-10-10T19:11:03",
+        "slug": "apprenant12",
+        "status": "publish",
+        "type": "apprenant",
+        "link": "http://localhost/wordpress/Apprenants/apprenant12/",
+        "title": {
+            "rendered": "Zentai Zsofia"
+        },
+        "excerpt": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 0,
+        "template": "",
+        "promotion": [
+            7
+        ],
+        "Competence": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/apprenant/131"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/apprenant"
+                }
+            ],
+            "about": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/types/apprenant"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/media?parent=131"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "promotion",
+                    "embeddable": true,
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/promotion?post=131"
+                },
+                {
+                    "taxonomy": "Competence",
+                    "embeddable": true,
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/Competence?post=131"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 129,
+        "date": "2021-10-08T14:17:40",
+        "date_gmt": "2021-10-08T12:17:40",
+        "guid": {
+            "rendered": "http://localhost/wordpress/?post_type=apprenant&#038;p=129"
+        },
+        "modified": "2021-10-10T20:28:34",
+        "modified_gmt": "2021-10-10T18:28:34",
+        "slug": "apprenant11",
+        "status": "publish",
+        "type": "apprenant",
+        "link": "http://localhost/wordpress/Apprenants/apprenant11/",
+        "title": {
+            "rendered": "Reboul Benjamin"
+        },
+        "excerpt": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 0,
+        "template": "",
+        "promotion": [
+            7
+        ],
+        "Competence": [
+            10
+        ],
+        "_links": {
+            "self": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/apprenant/129"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/apprenant"
+                }
+            ],
+            "about": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/types/apprenant"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/media?parent=129"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "promotion",
+                    "embeddable": true,
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/promotion?post=129"
+                },
+                {
+                    "taxonomy": "Competence",
+                    "embeddable": true,
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/Competence?post=129"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 127,
+        "date": "2021-10-08T14:17:27",
+        "date_gmt": "2021-10-08T12:17:27",
+        "guid": {
+            "rendered": "http://localhost/wordpress/?post_type=apprenant&#038;p=127"
+        },
+        "modified": "2021-10-08T15:09:09",
+        "modified_gmt": "2021-10-08T13:09:09",
+        "slug": "apprenant10",
+        "status": "publish",
+        "type": "apprenant",
+        "link": "http://localhost/wordpress/Apprenants/apprenant10/",
+        "title": {
+            "rendered": "Peyron Estelle"
+        },
+        "excerpt": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 0,
+        "template": "",
+        "promotion": [
+            7
+        ],
+        "Competence": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/apprenant/127"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/apprenant"
+                }
+            ],
+            "about": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/types/apprenant"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/media?parent=127"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "promotion",
+                    "embeddable": true,
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/promotion?post=127"
+                },
+                {
+                    "taxonomy": "Competence",
+                    "embeddable": true,
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/Competence?post=127"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 125,
+        "date": "2021-10-08T14:17:11",
+        "date_gmt": "2021-10-08T12:17:11",
+        "guid": {
+            "rendered": "http://localhost/wordpress/?post_type=apprenant&#038;p=125"
+        },
+        "modified": "2021-10-08T15:06:24",
+        "modified_gmt": "2021-10-08T13:06:24",
+        "slug": "apprenant9",
+        "status": "publish",
+        "type": "apprenant",
+        "link": "http://localhost/wordpress/Apprenants/apprenant9/",
+        "title": {
+            "rendered": "Margery Marie"
+        },
+        "excerpt": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 0,
+        "template": "",
+        "promotion": [
+            7
+        ],
+        "Competence": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/apprenant/125"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/apprenant"
+                }
+            ],
+            "about": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/types/apprenant"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/media?parent=125"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "promotion",
+                    "embeddable": true,
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/promotion?post=125"
+                },
+                {
+                    "taxonomy": "Competence",
+                    "embeddable": true,
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/Competence?post=125"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 122,
+        "date": "2021-10-08T14:16:29",
+        "date_gmt": "2021-10-08T12:16:29",
+        "guid": {
+            "rendered": "http://localhost/wordpress/?post_type=apprenant&#038;p=122"
+        },
+        "modified": "2021-10-11T12:16:15",
+        "modified_gmt": "2021-10-11T10:16:15",
+        "slug": "apprenant8",
+        "status": "publish",
+        "type": "apprenant",
+        "link": "http://localhost/wordpress/Apprenants/apprenant8/",
+        "title": {
+            "rendered": "Rémili Rédouane"
+        },
+        "excerpt": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 0,
+        "template": "",
+        "promotion": [
+            7
+        ],
+        "Competence": [
+            10
+        ],
+        "_links": {
+            "self": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/apprenant/122"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/apprenant"
+                }
+            ],
+            "about": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/types/apprenant"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/media?parent=122"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "promotion",
+                    "embeddable": true,
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/promotion?post=122"
+                },
+                {
+                    "taxonomy": "Competence",
+                    "embeddable": true,
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/Competence?post=122"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 120,
+        "date": "2021-10-08T14:16:12",
+        "date_gmt": "2021-10-08T12:16:12",
+        "guid": {
+            "rendered": "http://localhost/wordpress/?post_type=apprenant&#038;p=120"
+        },
+        "modified": "2021-10-11T12:14:55",
+        "modified_gmt": "2021-10-11T10:14:55",
+        "slug": "apprenant7",
+        "status": "publish",
+        "type": "apprenant",
+        "link": "http://localhost/wordpress/Apprenants/apprenant7/",
+        "title": {
+            "rendered": "Meyer Nadia"
+        },
+        "excerpt": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 0,
+        "template": "",
+        "promotion": [
+            7
+        ],
+        "Competence": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/apprenant/120"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/apprenant"
+                }
+            ],
+            "about": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/types/apprenant"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/media?parent=120"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "promotion",
+                    "embeddable": true,
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/promotion?post=120"
+                },
+                {
+                    "taxonomy": "Competence",
+                    "embeddable": true,
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/Competence?post=120"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 118,
+        "date": "2021-10-08T14:15:47",
+        "date_gmt": "2021-10-08T12:15:47",
+        "guid": {
+            "rendered": "http://localhost/wordpress/?post_type=apprenant&#038;p=118"
+        },
+        "modified": "2021-10-11T12:13:14",
+        "modified_gmt": "2021-10-11T10:13:14",
+        "slug": "apprenant6",
+        "status": "publish",
+        "type": "apprenant",
+        "link": "http://localhost/wordpress/Apprenants/apprenant6/",
+        "title": {
+            "rendered": "Gagne Allan"
+        },
+        "excerpt": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 180,
+        "template": "",
+        "promotion": [
+            7
+        ],
+        "Competence": [
+            10
+        ],
+        "_links": {
+            "self": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/apprenant/118"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/apprenant"
+                }
+            ],
+            "about": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/types/apprenant"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/media/180"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/media?parent=118"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "promotion",
+                    "embeddable": true,
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/promotion?post=118"
+                },
+                {
+                    "taxonomy": "Competence",
+                    "embeddable": true,
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/Competence?post=118"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 116,
+        "date": "2021-10-08T14:15:30",
+        "date_gmt": "2021-10-08T12:15:30",
+        "guid": {
+            "rendered": "http://localhost/wordpress/?post_type=apprenant&#038;p=116"
+        },
+        "modified": "2021-10-11T12:12:14",
+        "modified_gmt": "2021-10-11T10:12:14",
+        "slug": "apprenant",
+        "status": "publish",
+        "type": "apprenant",
+        "link": "http://localhost/wordpress/Apprenants/apprenant/",
+        "title": {
+            "rendered": "Bernard  Clément"
+        },
+        "excerpt": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 176,
+        "template": "",
+        "promotion": [
+            7
+        ],
+        "Competence": [
+            9
+        ],
+        "_links": {
+            "self": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/apprenant/116"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/apprenant"
+                }
+            ],
+            "about": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/types/apprenant"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/media/176"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/media?parent=116"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "promotion",
+                    "embeddable": true,
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/promotion?post=116"
+                },
+                {
+                    "taxonomy": "Competence",
+                    "embeddable": true,
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/Competence?post=116"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 114,
+        "date": "2021-10-08T14:15:09",
+        "date_gmt": "2021-10-08T12:15:09",
+        "guid": {
+            "rendered": "http://localhost/wordpress/?post_type=apprenant&#038;p=114"
+        },
+        "modified": "2021-10-11T12:10:40",
+        "modified_gmt": "2021-10-11T10:10:40",
+        "slug": "apprenant4",
+        "status": "publish",
+        "type": "apprenant",
+        "link": "http://localhost/wordpress/Apprenants/apprenant4/",
+        "title": {
+            "rendered": "Baksic Daris"
+        },
+        "excerpt": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 171,
+        "template": "",
+        "promotion": [
+            7
+        ],
+        "Competence": [
+            10
+        ],
+        "_links": {
+            "self": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/apprenant/114"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/apprenant"
+                }
+            ],
+            "about": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/types/apprenant"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/media/171"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/media?parent=114"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "promotion",
+                    "embeddable": true,
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/promotion?post=114"
+                },
+                {
+                    "taxonomy": "Competence",
+                    "embeddable": true,
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/Competence?post=114"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 112,
+        "date": "2021-10-08T14:14:52",
+        "date_gmt": "2021-10-08T12:14:52",
+        "guid": {
+            "rendered": "http://localhost/wordpress/?post_type=apprenant&#038;p=112"
+        },
+        "modified": "2021-10-11T12:09:26",
+        "modified_gmt": "2021-10-11T10:09:26",
+        "slug": "apprenant3",
+        "status": "publish",
+        "type": "apprenant",
+        "link": "http://localhost/wordpress/Apprenants/apprenant3/",
+        "title": {
+            "rendered": "Chantemesse marie"
+        },
+        "excerpt": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 166,
+        "template": "",
+        "promotion": [
+            7
+        ],
+        "Competence": [
+            9
+        ],
+        "_links": {
+            "self": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/apprenant/112"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/apprenant"
+                }
+            ],
+            "about": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/types/apprenant"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/media/166"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/media?parent=112"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "promotion",
+                    "embeddable": true,
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/promotion?post=112"
+                },
+                {
+                    "taxonomy": "Competence",
+                    "embeddable": true,
+                    "href": "http://localhost/wordpress/wp-json/wp/v2/Competence?post=112"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    }
+]
