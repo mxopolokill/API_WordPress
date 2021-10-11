@@ -71,8 +71,8 @@ public function save( $post_id ) {
     }
 
     // S'il s'agit d'une sauvegarde automatique, 
-    //notre formulaire n'a pas été soumis, If this is an autosave, 
-    //our form has not been submitted,donc nous ne voulons pas faire n'importe quoi.
+    //formulaire n'a pas été soumis, Si c'est une sauvegarde automatique,  
+    //formulaire n'a pas été soumis, donc nous ne voulons pas faire n'importe quoi.
      
     if ( defined( 'DOING_AUTOSAVE' )  ) {
         return $post_id;
