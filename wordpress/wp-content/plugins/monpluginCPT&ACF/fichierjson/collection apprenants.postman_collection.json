@@ -1,0 +1,94 @@
+{
+	"info": {
+		"_postman_id": "f20d893f-5d81-49bb-b005-38af4a01068a",
+		"name": "collection apprenants",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Wordpress Json",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "route pour Tout les apprenants",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/wordpress/wp-json/wp/v2/apprenant",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"wordpress",
+						"wp-json",
+						"wp",
+						"v2",
+						"apprenant"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Route Promotion",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "route des competences",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Route Promo 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Route Promo 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Route competence Back-End",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Route Competence Front-End",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		}
+	]
+}
