@@ -3,7 +3,7 @@
 //Appelle la classe sur l'écran d'édition du message.
 function create_meta_box() {
 
-$myMetaBox = array(
+$LaMetaBox = array(
     array('prenom', 'Prénom', ''),
     array('nom', 'Nom', ''),
     array('portfolio', 'Portfolio', ''),
@@ -12,7 +12,7 @@ $myMetaBox = array(
    
 );
 
-foreach($myMetaBox as $metaBox){
+foreach($LaMetaBox as $metaBox){
     new CreateMetaBox($metaBox);
 }
 }
@@ -92,10 +92,10 @@ public function save( $post_id ) {
 
     
     // Assainir l'entrée de l'utilisateur.
-    $mydata = sanitize_text_field( $_POST['apprenant' .$this->meta_name] );
+    $Ladata = sanitize_text_field( $_POST['apprenant' .$this->meta_name] );
 
     // Mettez à jour le champ méta.
-    update_post_meta( $post_id, '_' .$this->meta_name, $mydata );
+    update_post_meta( $post_id, '_' .$this->meta_name, $Ladata );
 }
 
 
@@ -112,12 +112,5 @@ public function render_meta_box_content( $post) {
     } else {
         $value = $this->default_value;
     }
-    // Afficher le formulaire, en utilisant la valeur actuelle.
-    ?>
-    <label for="apprenant<?php echo $this->meta_name; ?>">
-        <?php _e($this->name_display, 'default' ); ?>
-    </label>
-    <input type="text" id=apprenant<?php echo $this->meta_name; ?>" name="apprenant<?php echo $this->meta_name; ?>" value="<?php echo esc_attr( $value ); ?>" size="100" />
-    <?php
-}
+
 }
