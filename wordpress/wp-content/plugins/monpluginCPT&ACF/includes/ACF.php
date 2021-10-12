@@ -35,9 +35,9 @@ public function __construct($meta_name) {
     add_action( 'save_post',      array( $this, 'save'         ) );
 }
 
-// Ajoute le conteneur de la boîte méta.   
+// Ajoute le conteneur de la MetaBox.   
 public function add_meta_box( $post_type ) {
-    // Limiter la boîte à méta à certains types de messages.
+    // Limiter la MetaBox à certains types de messages.
     $post_types = array('apprenant');
 
     if ( in_array( $post_type, $post_types ) ) {
@@ -57,17 +57,17 @@ public function add_meta_box( $post_type ) {
  */
 public function save( $post_id ) {
 
-    // Nous devons vérifier que cela vient de notre écran et avec l'autorisation appropriée, 
+    // vérification que cela vient de notre écran et avec l'autorisation appropriée, 
     //car save_post peut être déclenché à d'autres moments.
     //Vérifier si notre nonce est activé.
-    if ( ! isset( $_POST['_apprenant' .$this->meta_name. '_nonce'] ) ) {
+    if ( ! isset( $_POST['apprenant' .$this->meta_name. 'nonce'] ) ) {
         return $post_id;
     }
 
-    $nonce = $_POST['_apprenant' .$this->meta_name. '_nonce'];
+    $nonce = $_POST['apprenant' .$this->meta_name. 'nonce'];
 
-    // Vérifier que le nonce est valide.
-    if ( ! wp_verify_nonce( $nonce, '_apprenant' .$this->meta_name ) ) {
+    // Vérifier que la nonce est valide.
+    if ( ! wp_verify_nonce( $nonce, 'apprenant' .$this->meta_name ) ) {
         return $post_id;
     }
 
@@ -92,7 +92,7 @@ public function save( $post_id ) {
 
     
     // Assainir l'entrée de l'utilisateur.
-    $mydata = sanitize_text_field( $_POST['_apprenant' .$this->meta_name] );
+    $mydata = sanitize_text_field( $_POST['apprenant' .$this->meta_name] );
 
     // Mettez à jour le champ méta.
     update_post_meta( $post_id, '_' .$this->meta_name, $mydata );
@@ -105,7 +105,7 @@ public function save( $post_id ) {
 public function render_meta_box_content( $post) {
 
 // Ajoutez un champ nonce pour que nous puissions le vérifier plus tard.
-    wp_nonce_field( '_apprenant'.$this->meta_name, '_apprenant'.$this->meta_name.'_nonce' );
+    wp_nonce_field( 'apprenant'.$this->meta_name, 'apprenant'.$this->meta_name.'nonce' );
     // Utilisez get_post_meta pour récupérer une valeur existante dans la base de données.
     if(get_post_meta( $post->ID, '_'.$this->meta_name, true )){
         $value = get_post_meta( $post->ID, '_'.$this->meta_name, true );
@@ -114,10 +114,10 @@ public function render_meta_box_content( $post) {
     }
     // Afficher le formulaire, en utilisant la valeur actuelle.
     ?>
-    <label for="_apprenant<?php echo $this->meta_name; ?>">
+    <label for="apprenant<?php echo $this->meta_name; ?>">
         <?php _e($this->name_display, 'default' ); ?>
     </label>
-    <input type="text" id="_apprenant<?php echo $this->meta_name; ?>" name="_apprenant<?php echo $this->meta_name; ?>" value="<?php echo esc_attr( $value ); ?>" size="50" />
+    <input type="text" id=apprenant<?php echo $this->meta_name; ?>" name="apprenant<?php echo $this->meta_name; ?>" value="<?php echo esc_attr( $value ); ?>" size="100" />
     <?php
 }
 }
