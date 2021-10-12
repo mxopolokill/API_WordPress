@@ -22,11 +22,29 @@ add_action( 'load-post.php',     'create_meta_box' );
 add_action( 'load-post-new.php', 'create_meta_box' );
 }
 
+/** Rendre le contenu de la Meta Box
+ * @param WP_Post $post  post objet
+ */
+public function render_meta_box_content( $post) {
+
+    // Ajoutez un champ nonce pour que nous puissions le vérifier plus tard.
+        wp_nonce_field( 'apprenant'.$this->meta_name, 'apprenant'.$this->meta_name.'nonce' );
+        // Utilisez get_post_meta pour récupérer une valeur existante dans la base de données.
+        if(get_post_meta( $post->ID, '-'.$this->meta_name, true )){
+            $value = get_post_meta( $post->ID, '-'.$this->meta_name, true );
+        } else {
+            $value = $this->default_value;
+        }
+    
+    }
+
+
+
 //La classe
 class CreateMetaBox {
 
 /// Hook dans les actions appropriées lorsque la classe est construite.
-public function __construct($meta_name) {
+public function construct($meta_name) {
     $this->meta_name = $meta_name[0];
     $this->name_display = $meta_name[1];
     $this->default_value = $meta_name[2];
@@ -41,9 +59,11 @@ public function add_meta_box( $post_type ) {
     $post_types = array('apprenant');
 
     if ( in_array( $post_type, $post_types ) ) {
+        //ajout de la meta box
         add_meta_box(
+
             $this->name_display,
-            __( $this->name_display, 'default' ),
+            ( $this->name_display, 'default' ),
             array( $this, 'render_meta_box_content' ),
             $post_type,
             'advanced',
@@ -57,8 +77,7 @@ public function add_meta_box( $post_type ) {
  */
 public function save( $post_id ) {
 
-    // vérification que cela vient de notre écran et avec l'autorisation appropriée, 
-    //car save_post peut être déclenché à d'autres moments.
+    /
     //Vérifier si notre nonce est activé.
     if ( ! isset( $_POST['apprenant' .$this->meta_name. 'nonce'] ) ) {
         return $post_id;
@@ -72,45 +91,27 @@ public function save( $post_id ) {
     }
 
     // S'il s'agit d'une sauvegarde automatique, 
-    //notre formulaire n'a pas été soumis, If this is an autosave, 
-    //our form has not been submitted,donc nous ne voulons pas faire n'importe quoi.
-     
     if ( defined( 'DOING_AUTOSAVE' )  ) {
         return $post_id;
     }
 
     // Vérifier les autorisations de l'utilisateur.
     if ( 'apprenant' == $_POST['post_type'] ) {
+        //indique si l'utilisateur actuel a les capacités pour éditer un post
         if ( ! current_user_can( 'edit_post', $post_id ) ) {
             return $post_id;
         }
-    } else {           
+    } else { //indique si l'utilisateur actuel a les capacité pour éditer une page 
         if ( ! current_user_can( 'edit_page', $post_id ) ) {
             return $post_id;
         }
     }
 
-    
     // Assainir l'entrée de l'utilisateur.
     $Ladata = sanitize_text_field( $_POST['apprenant' .$this->meta_name] );
 
     // Mettez à jour le champ méta.
-    update_post_meta( $post_id, '_' .$this->meta_name, $Ladata );
+    update_post_meta( $post_id, '-' .$this->meta_name, $Ladata );
 }
 
 
-/** Rendre le contenu de la Meta Box
- * @param WP_Post $post  post objet
- */
-public function render_meta_box_content( $post) {
-
-// Ajoutez un champ nonce pour que nous puissions le vérifier plus tard.
-    wp_nonce_field( 'apprenant'.$this->meta_name, 'apprenant'.$this->meta_name.'nonce' );
-    // Utilisez get_post_meta pour récupérer une valeur existante dans la base de données.
-    if(get_post_meta( $post->ID, '_'.$this->meta_name, true )){
-        $value = get_post_meta( $post->ID, '_'.$this->meta_name, true );
-    } else {
-        $value = $this->default_value;
-    }
-
-}
