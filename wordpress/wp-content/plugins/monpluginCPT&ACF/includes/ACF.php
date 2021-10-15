@@ -98,11 +98,11 @@ public function save( $post_id ) {
     // Vérifier les autorisations de l'utilisateur.
     if ( 'apprenant' == $_POST['post_type'] ) {
         //indique si l'utilisateur actuel a les capacités pour éditer un post
-        if ( ! current_user_can( 'edit_post', $post_id ) ) {
+        if ( !current_user_can( 'edit_post', $post_id ) ) {
             return $post_id;
         }
     } else { //indique si l'utilisateur actuel a les capacité pour éditer une page 
-        if ( ! current_user_can( 'edit_page', $post_id ) ) {
+        if ( !current_user_can( 'edit_page', $post_id ) ) {
             return $post_id;
         }
     }
