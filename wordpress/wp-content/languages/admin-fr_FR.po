@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.8.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-05 10:27:50+0000\n"
+"PO-Revision-Date: 2021-10-17 06:11:05+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -2750,7 +2750,7 @@ msgstr "Copier les informations du site dans le presse-papier"
 
 #: wp-admin/site-health-info.php:47
 msgid "If you want to export a handy list of all the information on this page, you can use the button below to copy it to the clipboard. You can then paste it in a text file and save it to your device, or paste it in an email exchange with a support engineer or theme/plugin developer for example."
-msgstr "SI vous souhaitez exporter une liste de toutes les informations contenues dans cette page, vous pouvez utiliser le bouton ci-dessous pour les copier dans votre presse-papier. Vous pourrez ensuite les coller dans un fichier texte pour les enregistrer sur votre ordinateur, dans un e-mail d’échange avec un support technique, ou encore dans une discussion avec une développeuse ou un développeur de thème/extension."
+msgstr "Si vous souhaitez exporter une liste de toutes les informations contenues dans cette page, vous pouvez utiliser le bouton ci-dessous pour les copier dans votre presse-papier. Vous pourrez ensuite les coller dans un fichier texte pour les enregistrer sur votre ordinateur, dans un e-mail d’échange avec un support technique, ou encore dans une discussion avec une développeuse ou un développeur de thème/extension."
 
 #: wp-admin/site-health-info.php:24 wp-admin/site-health.php:197
 msgid "The Site Health check requires JavaScript."
@@ -3896,7 +3896,7 @@ msgstr "Thème actif"
 
 #: wp-admin/includes/class-wp-debug-data.php:141
 msgid "Drop-ins"
-msgstr "Avancées"
+msgstr "Extensions avancées"
 
 #: wp-admin/includes/class-wp-debug-data.php:135
 msgid "Directories and Sizes"
@@ -5140,7 +5140,7 @@ msgstr "Si vous devez absolument modifier directement cette extension, utilisez 
 
 #: wp-admin/plugin-editor.php:326
 msgid "You appear to be making direct edits to your plugin in the WordPress dashboard. We recommend that you don&#8217;t! Editing plugins directly may introduce incompatibilities that break your site and your changes may be lost in future updates."
-msgstr "Il semble que vous soyez en train de modifier directement votre thème dans le tableau de bord de WordPress. Ce n’est pas recommandé ! Modifier directement les extensions peut introduire des incompatibilités futures qui pourraient casser votre site et vos modifications risquent d’être perdues lors de futures mises à jour."
+msgstr "Il semble que vous soyez en train de modifier directement votre extension dans le tableau de bord de WordPress. Ce n’est pas recommandé ! Modifier directement les extensions peut introduire des incompatibilités futures qui pourraient casser votre site et vos modifications risquent d’être perdues lors de futures mises à jour."
 
 #. translators: 1: Documentation URL, 2: URL to Reading Settings screen.
 #: wp-admin/options-writing.php:223

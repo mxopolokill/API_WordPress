@@ -113,5 +113,3 @@ public function save( $post_id ) {
     // Mettez à jour le champ méta.
     update_post_meta( $post_id, '-' .$this->meta_name, $Ladata );
 }
-
-

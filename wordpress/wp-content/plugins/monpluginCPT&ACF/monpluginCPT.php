@@ -13,7 +13,7 @@ Domain Path: /lang
 add_theme_support('post-thumbnails', array('post', 'apprenant'));
 require_once('includes/CPT.php');
 require_once('includes/ACF.php');
-require_once('includes/appelapi.php')
+require_once('includes/routeapprenants.php');
 
 
 

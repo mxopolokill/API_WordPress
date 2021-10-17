@@ -6,3 +6,6 @@ Route Promo 2:                  http://localhost/wordpress/wp-json/wp/v2/apprena
 Route des compétences :         http://localhost/wordpress/wp-json/wp/v2/competence
 Route competence front-end:     http://localhost/wordpress/wp-json/wp/v2/apprenant?Competence=9
 Route competence back-end:      http://localhost/wordpress/wp-json/wp/v2/apprenant?Competence=10
+
+
+https://www.it-swarm-fr.com/fr/api/codage-utf8-dans-json-rest-api/963580580/
