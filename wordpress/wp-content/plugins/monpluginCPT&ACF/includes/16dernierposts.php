@@ -1,5 +1,5 @@
 <?php
-function get_objects( $objects ) {
+function get_objectss( $object ) {
     
   $Postapprenants =  
     get_posts( 
@@ -35,9 +35,11 @@ function get_objects( $objects ) {
 }                  
 return $allposts;
 
-function custom_api_get_all_posts() {
-  register_rest_route( 'apprenant16/v1', '/all-posts', array(
+function custom_api_get_last_16posts() {
+  register_rest_route( 'apprenant16/v1', '/last16-posts', array(
       'methods' => 'GET',
       'callback' => 'custom_api_get_all_posts_callback'
   ));
 }
+
+add_action( 'rest_api_init', 'custom_api_get_last_16posts' ); 

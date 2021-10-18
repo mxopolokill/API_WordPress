@@ -27,18 +27,21 @@ function get_objects( $objects ) {
         'portfolio' => get_post_meta($post, 'portfolio', true),
         'linkedin' => get_post_meta($post, 'linkedin', true),
         'cv' => get_post_meta($post, 'cv', true),
-        'promotion' => get_post_meta($post, 'promotion', true),
-        'competences' => get_post_meta($post, 'competences', true) ,    
+        'promotion' => get_terms($post, 'promotion', true),
+        'competences' => get_terms($post, 'competences', true) ,    
     );
 }                  
-return $allposts;
+return $posts;
 
 
 
 
-function custom_api_get_all_posts() {
+function getallposts() {
   register_rest_route( 'apprenant/v1', '/all-posts', array(
       'methods' => 'GET',
       'callback' => 'custom_api_get_all_posts_callback'
   ));
 }
+
+
+add_action( 'rest_api_init', 'getallposts' ); 
