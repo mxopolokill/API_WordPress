@@ -2,7 +2,7 @@
 
 //Appelle la classe sur l'écran d'édition du message.
 function create_meta_box() {
-
+//variable  $myMetaBox inclue un tableau des élement voulant etre ajouter 
 $myMetaBox = array(
     array('prenom', 'Prénom', ''),
     array('nom', 'Nom', ''),
@@ -12,12 +12,17 @@ $myMetaBox = array(
    
 );
 
+//création d'un tableau pour la création d'une nouvelle Metabox 
 foreach($myMetaBox as $metaBox){
+    
     new CreateMetaBox($metaBox);
 }
 }
 
+// si  la demande actuelle concerne est une page d'interface administrative.
 if ( is_admin() ) {
+    // on lance nos deux hook via la fonction précedement crée 
+    
 add_action( 'load-post.php',     'create_meta_box' );
 add_action( 'load-post-new.php', 'create_meta_box' );
 }
